@@ -3,7 +3,7 @@ version: '3'
 
 services:
   api-solid-pg:
-    image: bitnami/postgrsql
+    image: bitnami/postgresql
     ports:
       - 5432:5432
     environment:

@@ -9,7 +9,7 @@ jobs:
 
     services:
       postgres:
-        image: bitnami/postgrsql
+        image: bitnami/postgresql
         ports:
           - 5432:5432
         env:
